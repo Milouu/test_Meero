@@ -76,11 +76,15 @@ section#homepage_first_section
 div#first_section_slider
   width 100%
   margin-bottom rem($margin)
-  margin-right rem(-$margin)
+  margin-right rem(- $margin)
 
   .item
     padding 0 rem(20)
     overflow hidden
+    transition all 0.3s
+    will-change transform
+    &:hover
+      transform scale(1.1)
 
 div#first_section_infos
   width 100%
