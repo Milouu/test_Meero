@@ -8,3 +8,21 @@ body
 
 a
   text-decoration none
+
+// CLASSES
+.button
+  border 1px solid $white
+  border-radius 50px
+  cursor pointer
+  transition all 0.3s
+  &:hover
+    background-color $white
+    color $blue
+
+.filled_button
+  background-color $white
+  color $blue
+  &:hover
+    background-color $blue
+    border-color $blue
+    color $white
