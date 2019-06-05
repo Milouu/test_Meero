@@ -90,6 +90,9 @@ div#first_section_infos
   width 100%
   display flex
 
+  @media screen and (max-width: 780px)
+     flex-wrap wrap
+
   &>div
     width 25%
     height rem(200)
@@ -98,8 +101,15 @@ div#first_section_infos
     justify-content center
     align-items center
     border-right 1px solid $yellow
+    text-align center
     &:last-child
       border-right none
+
+    @media screen and (max-width: 780px)
+      width 50%
+      margin-bottom rem($margin)
+      &:nth-child(2n)
+        border-right none
 
     p.text_bold_font
       margin-bottom rem($margin/2)
