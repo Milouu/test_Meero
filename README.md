@@ -1,27 +1,7 @@
-# Objectif
+# Disclaimer
 
-- Intégrer la maquette
+Je n'étais pas sûr si l'implémentation d'un smooth scroll était sous-entendu uniquement pour le bouton ramenant en haut de la page. J'ai donc mis en place un smooth scroll sur les événements de scroll que j'ai laissé en commentaires dans le fichier smooth_scroll.js. 
 
-- Implémenter un slider sur les photos
+- **tldr**:  smooth_scroll.js -> Lignes 19-20 & 33-34 à décommenter pour enable le smooth scroll.
 
-- Implémenter un smooth scroll
 
-## Consignes
-
-- La maquette à intégrer comporte 2 parties devant prendre 100% de la hauteur de l'écran chacune.
-Il sera donc nécessaire de scroller pour voir la deuxième partie.
-
-- Les photos doivent être présentées sous la forme d'un slider infini.
-
-- Un bouton doit nous permettre de remonter en haut avec une animation douce.
-Le bouton n'est visible qu'une fois la deuxième page partiellement visible.
-
-- La font à utiliser est "Avenir".
-
-- La stack technique se compose de HTML 5, CSS 3 (SCSS possible) et jQuery.
-
-- Les plugins jQuery sont autorisés.
-
-## Rendu
-
-Le rendu se fera sous forme d'une archive (zip) ou sur un repository github publique contenant toutes les sources nécessaires au fonctionnement de la page.
